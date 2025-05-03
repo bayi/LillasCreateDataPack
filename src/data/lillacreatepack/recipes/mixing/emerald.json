@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "none",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+      "nbt": {},
+      "fluid": "minecraft:lava",
+      "amount": 50
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "item": "minecraft:emerald"
+    }
+  ]
+}

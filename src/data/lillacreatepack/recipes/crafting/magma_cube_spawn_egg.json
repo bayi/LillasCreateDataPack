@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "OEO",
+    "OIO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:magma_cream"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "I": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "minecraft:magma_cube_spawn_egg",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "OEO",
+    "OIO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:redstone"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "I": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "minecraft:witch_spawn_egg",
+    "count": 1
+  }
+}

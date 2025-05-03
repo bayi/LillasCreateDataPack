@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "OEO",
+    "OIO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:pink_wool"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "I": {
+      "item": "minecraft:mutton"
+    }
+  },
+  "result": {
+    "item": "minecraft:sheep_spawn_egg",
+    "count": 1
+  }
+}
