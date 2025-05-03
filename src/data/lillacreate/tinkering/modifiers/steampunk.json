@@ -1,5 +1,9 @@
 {
-  "level_display": "tconstruct:single_level",
+  "level_display": {
+    "type": "tconstruct:unique",
+    "first_unique": false,
+    "unique_until": 3
+  },
   "modules": [
     {
       "type": "tconstruct:modifier_slot",
@@ -7,5 +11,5 @@
       "name": "abilities"
     }
   ],
-  "tooltip_display": "tinker_station"
+  "tooltip_display": "always"
 }

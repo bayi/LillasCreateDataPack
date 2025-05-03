@@ -1,5 +1,8 @@
 {
   "type": "tconstruct:modifier",
+  "allow_crystal": false,
+  "amount_per_item": 1,
+  "needed_per_level": 10,
   "conditions": [
     {
       "type": "forge:mod_loaded",
@@ -23,7 +26,9 @@
       "item": "create:precision_mechanism"
     }
   ],
-  "level": 1,
+  "level": {
+    "max": 3
+  },
   "result": "lillacreate:steampunk",
   "tools": {
     "tag": "tconstruct:modifiable/bonus_slots"
