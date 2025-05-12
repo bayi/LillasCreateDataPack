@@ -16,7 +16,7 @@
     "hidden": false
   },
   "criteria": {
-    "test": {
+    "before_night": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,7 +29,7 @@
   },
   "requirements": [
     [
-      "test"
+      "before_night"
     ]
   ],
   "sends_telemetry_event": true
