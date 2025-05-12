@@ -7,8 +7,7 @@
       "translate": "advancements.lillacreate.root.desc"
     },
     "icon": {
-      "item": "minecraft:lilac",
-      "nbt": "{Enchantments:[{lvl:1s,id:\"minecraft:mending\"}]}"
+      "item": "minecraft:lilac"
     },
     "background": "minecraft:textures/block/cyan_concrete.png",
     "frame": "task",
