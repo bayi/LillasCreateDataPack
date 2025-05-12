@@ -1,0 +1,30 @@
+{
+"parent": "lillacreate:main/before_night",
+  "display": {
+    "icon": {
+      "item": "minecraft:red_bed"
+    },
+    "title": {
+      "translate": "advancements.lillacreate.sleepy_head.title"
+    },
+    "description": {
+      "translate": "advancements.lillacreate.sleepy_head.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sleepy_head": {
+      "trigger": "minecraft:slept_in_bed",
+      "conditions": { }
+    }
+  },
+  "requirements": [
+    [
+      "sleepy_head"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

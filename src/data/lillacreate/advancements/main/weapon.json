@@ -1,0 +1,46 @@
+{
+  "parent": "lillacreate:main/before_night",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "advancements.lillacreate.weapon.title"
+    },
+    "description": {
+      "translate": "advancements.lillacreate.weapon.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "weapon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_sword",
+              "minecraft:netherite_sword",
+              "minecraft:iron_sword",
+              "minecraft:stone_sword",
+              "minecraft:golden_sword",
+              "minecraft:wooden_sword",
+              "minecraft:bow",
+              "minecraft:crossbow",
+              "minecraft:trident"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "weapon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
