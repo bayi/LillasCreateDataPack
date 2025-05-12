@@ -1,0 +1,36 @@
+{
+  "parent": "lillacreate:main/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:white_bed"
+    },
+    "title": {
+      "translate": "advancements.lillacreate.before_night.title"
+    },
+    "description": {
+      "translate": "advancements.lillacreate.before_night.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:beds"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "test"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

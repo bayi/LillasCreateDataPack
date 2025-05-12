@@ -1,15 +1,15 @@
 {
   "display": {
     "title": {
-      "translate": "Lilla Creates"
+      "translate": "advancements.lillacreate.root.title"
     },
     "description": {
-      "translate": "Welcome to Lilla's Create Pack"
+      "translate": "advancements.lillacreate.root.desc"
     },
     "icon": {
-      "item": "minecraft:knowledge_book"
+      "item": "minecraft:lilac"
     },
-    "background": "minecraft:textures/block/gray_concrete.png",
+    "background": "minecraft:textures/block/cyan_concrete.png",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
