@@ -5,10 +5,12 @@
       "item": "minecraft:white_bed"
     },
     "title": {
-      "translate": "advancements.lillacreate.before_night.title"
+      "translate": "advancements.lillacreate.before_night.title",
+      "fallback": "Prepare for the Night"
     },
     "description": {
-      "translate": "advancements.lillacreate.before_night.desc"
+      "translate": "advancements.lillacreate.before_night.desc",
+      "fallback": "Craft a bed."
     },
     "frame": "task",
     "show_toast": true,

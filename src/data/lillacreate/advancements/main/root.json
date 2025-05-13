@@ -1,10 +1,12 @@
 {
   "display": {
     "title": {
-      "translate": "advancements.lillacreate.root.title"
+      "translate": "advancements.lillacreate.root.title",
+      "fallback": "Lilla Creates"
     },
     "description": {
-      "translate": "advancements.lillacreate.root.desc"
+      "translate": "advancements.lillacreate.root.desc",
+      "fallback": "Welcome to Lilla's Create Pack"
     },
     "icon": {
       "item": "minecraft:lilac"

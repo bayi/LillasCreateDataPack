@@ -5,10 +5,12 @@
       "item": "minecraft:netherite_sword"
     },
     "title": {
-      "translate": "advancements.lillacreate.weapon.title"
+      "translate": "advancements.lillacreate.weapon.title",
+      "fallback": "I don't even use this"
     },
     "description": {
-      "translate": "advancements.lillacreate.weapon.desc"
+      "translate": "advancements.lillacreate.weapon.desc",
+      "fallback": "Get a weapon."
     },
     "frame": "task",
     "show_toast": true,
