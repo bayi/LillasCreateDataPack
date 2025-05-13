@@ -1,24 +1,24 @@
 {
-  "parent": "lillacreate:main/before_night",
+  "parent": "lillacreate:main/sleep_seven_days",
   "display": {
     "icon": {
-      "item": "minecraft:pink_bed"
+      "item": "minecraft:purple_bed"
     },
     "title": {
-      "translate": "advancements.lillacreate.sleep_three_days.title",
-      "fallback": "Sleepyhead"
+      "translate": "advancements.lillacreate.sleep_ten_days.title",
+      "fallback": "Sleeping Beauty"
     },
     "description": {
-      "translate": "advancements.lillacreate.sleep_three_days.desc",
-      "fallback": "Sleep through three days in a row."
+      "translate": "advancements.lillacreate.sleep_ten_days.desc",
+      "fallback": "Sleep through ten days in a row."
     },
-    "frame": "goal",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "sleep_three_days": {
+    "sleep_ten_days": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -30,7 +30,7 @@
               "score": "lc.slept_days"
             },
             "range": {
-              "min": 3
+              "min": 10
             }
           }
         ]
@@ -39,11 +39,11 @@
   },
   "requirements": [
     [
-      "sleep_three_days"
+      "sleep_ten_days"
     ]
   ],
   "rewards": {
-    "experience": 100
+    "function": "lillacreate:rewards/diamond"
   },
   "sends_telemetry_event": true
 }

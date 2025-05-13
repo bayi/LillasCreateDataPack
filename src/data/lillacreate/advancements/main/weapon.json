@@ -1,5 +1,5 @@
 {
-  "parent": "lillacreate:main/before_night",
+  "parent": "lillacreate:main/root",
   "display": {
     "icon": {
       "item": "minecraft:netherite_sword"
