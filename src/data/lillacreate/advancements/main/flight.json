@@ -1,0 +1,41 @@
+{
+  "parent": "lillacreate:main/prepare_flight",
+  "display": {
+    "icon": {
+      "item": "create_jetpack:netherite_jetpack"
+    },
+    "title": {
+      "translate": "advancements.lillacreate.flight.title",
+      "fallback": "Fly!"
+    },
+    "description": {
+      "translate": "advancements.lillacreate.flight.desc",
+      "fallback": "Get a jetpack."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "flight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create_jetpack:jetpack",
+              "create_jetpack:netherite_jetpack"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "flight"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

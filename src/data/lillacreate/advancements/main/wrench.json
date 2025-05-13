@@ -1,0 +1,43 @@
+{
+  "parent": "lillacreate:main/root",
+  "display": {
+    "icon": {
+      "item": "create:wrench"
+    },
+    "title": {
+      "translate": "advancements.lillacreate.wrench.title",
+      "fallback": "I need this"
+    },
+    "description": {
+      "translate": "advancements.lillacreate.wrench.desc",
+      "fallback": "Get a wrench."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wrench": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:wrench",
+              "ae2:nether_quartz_wrench",
+              "ae2:certus_quartz_wrench",
+              "supplementaries:wrench"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wrench"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

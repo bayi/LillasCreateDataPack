@@ -1,0 +1,54 @@
+{
+  "parent": "lillacreate:main/flight",
+  "display": {
+    "icon": {
+      "item": "minecraft:soul_lantern"
+    },
+    "title": {
+      "translate": "advancements.lillacreate.afraid.title",
+      "fallback": "I am afraid ..."
+    },
+    "description": {
+      "translate": "advancements.lillacreate.afraid.desc",
+      "fallback": "Fly at least 500km in the air."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "afraid": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:fly_one_cm",
+                    "value": {
+                      "min": 50000000
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "afraid"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

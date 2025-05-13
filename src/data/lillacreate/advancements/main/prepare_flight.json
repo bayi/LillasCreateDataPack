@@ -1,0 +1,71 @@
+{
+  "parent": "lillacreate:main/wrench",
+  "display": {
+    "icon": {
+      "item": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "advancements.lillacreate.prepare_flight.title",
+      "fallback": "Prepare for flight"
+    },
+    "description": {
+      "translate": "advancements.lillacreate.prepare_flight.desc",
+      "fallback": "Get an elytra, backtank and some precision mechanisms."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "elytra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:elytra"
+            ]
+          }
+        ]
+      }
+    },
+    "precision_mechanism": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:precision_mechanism"
+            ]
+          }
+        ]
+      }
+    },
+    "backtank": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:copper_backtank",
+              "create:netherite_backtank"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "elytra"
+    ],
+    [
+      "precision_mechanism"
+    ],
+    [
+      "backtank"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
