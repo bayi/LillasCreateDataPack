@@ -17,8 +17,7 @@
   },
   "criteria": {
     "sleepy_head": {
-      "trigger": "minecraft:slept_in_bed",
-      "conditions": { }
+      "trigger": "minecraft:impossible"
     }
   },
   "requirements": [
