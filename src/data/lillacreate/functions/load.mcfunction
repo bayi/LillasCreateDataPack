@@ -9,8 +9,8 @@ scoreboard objectives add lc.daytime dummy
 scoreboard objectives setdisplay list lc.daytime
 
 # Current days sleep count
-scoreboard objectives add lc.sleepdays dummy
-scoreboard objectives setdisplay sidebar lc.sleepdays
+scoreboard objectives add lc.slept_days dummy
+scoreboard objectives setdisplay sidebar lc.slept_days
 
 
 

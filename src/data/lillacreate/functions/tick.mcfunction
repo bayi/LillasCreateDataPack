@@ -13,5 +13,12 @@ execute as @a store result score @s lc.daytime run time query daytime
 # Jo:
 # execute as @e[scores={lc.daytime=100}] run scoreboard players add @s lc.sleepdays 1 
 # execute if entity @a{scores={lc.daytime=100}} if entity @a{scores.lc.resttime=..24000} run scoreboard players add 
-execute as @e[scores={lc.daytime=10}] if entity @e[scores={lc.resttime=..24000}] run scoreboard players add @s lc.sleepdays 1
-execute as @e[scores={lc.daytime=10}] if entity @e[scores={lc.resttime=24000..}] run scoreboard players reset @s lc.sleepdays
+
+# WORKING:
+# execute as @e[scores={lc.daytime=10}] if entity @e[scores={lc.resttime=..24000}] run scoreboard players add @s lc.sleepdays 1
+# execute as @e[scores={lc.daytime=10}] if entity @e[scores={lc.resttime=24000..}] run scoreboard players reset @s lc.sleepdays
+
+# Predicate
+execute as @a if predicate lillacreate:player_slept run scoreboard players add @s lc.slept_days 1
+execute as @a if predicate lillacreate:player_not_slept run scoreboard players reset @s lc.slept_days
+# execute as @e[scores={{lc.sleepddays=3..}}] run advancement grant @s only lillacreate:main/slee_three_days
