@@ -6,7 +6,7 @@ scoreboard objectives add lc.resttime minecraft.custom:minecraft.time_since_rest
 
 # Current day time
 scoreboard objectives add lc.daytime dummy
-scoreboard objectives setdisplay sidebar lc.daytime
+scoreboard objectives setdisplay list lc.daytime
 
 # Current days sleep count
 scoreboard objectives add lc.sleepdays dummy
