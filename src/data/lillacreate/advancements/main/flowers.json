@@ -1,0 +1,255 @@
+{
+  "parent": "lillacreate:main/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:oxeye_daisy"
+    },
+    "title": {
+      "translate": "advancements.lillacreate.flowers.title",
+      "fallback": "Flowers"
+    },
+    "description": {
+      "translate": "advancements.lillacreate.flowers.desc",
+      "fallback": "Place a flower in the world."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dandelion": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:dandelion",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "poppy": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:poppy",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "blue_orchid": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:blue_orchid",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "allium": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:allium",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "azure_bluet": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:azure_bluet",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "red_tulip": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:red_tulip",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "orange_tulip": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:orange_tulip",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "white_tulip": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:white_tulip",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "pink_tulip": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:pink_tulip",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "oxeye_daisy": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:oxeye_daisy",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "cornflower": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:cornflower",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "lily_of_the_valley": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:lily_of_the_valley",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "torchflower": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:torchflower",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "wither_rose": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:wither_rose",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "sunflower": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:sunflower",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "lilac": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:lilac",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "rose_bush": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:rose_bush",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "peony": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:peony",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    },
+    "pitcher_plant": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:pitcher_plant",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dandelion",
+      "poppy",
+      "blue_orchid",
+      "allium",
+      "azure_bluet",
+      "red_tulip",
+      "orange_tulip",
+      "white_tulip",
+      "pink_tulip",
+      "oxeye_daisy",
+      "cornflower",
+      "lily_of_the_valley",
+      "torchflower",
+      "wither_rose",
+      "sunflower",
+      "lilac",
+      "rose_bush",
+      "peony",
+      "pitcher_plant"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
