@@ -27,5 +27,8 @@
       "trigger"
     ]
   ],
+  "rewards": {
+    "function": "lillacreate:rewards/book"
+  },
   "sends_telemetry_event": true
 }
